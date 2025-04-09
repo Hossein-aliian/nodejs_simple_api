@@ -15,6 +15,7 @@ app.post('/data/save', (req, res) => {
   const newData = req.body;
   data.push(newData);
   res.send('اطلاعات با موفقیت اضافه شد');
+  console.log(newData);
 });
 // ...................POST..........................
 
